@@ -11,7 +11,8 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    color: rgb(138, 12, 12);
+    position: relative;
+    color: white;
 }
 
 .nav ul li a{
@@ -28,7 +29,6 @@
     margin-right: 80px;
     justify-content: space-around;
 }
-
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -36,7 +36,8 @@
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+/* text css above hero image */
+
 .hero_title {
     font-size: 4.5rem;
 }
@@ -50,4 +51,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-}
+} 

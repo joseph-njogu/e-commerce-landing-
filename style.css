@@ -87,3 +87,40 @@
     padding-left: 80px;
     padding-top: 30px;
 }
+.colors {
+    display: flex;
+    margin-top: 2px
+}
+
+.colors span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    margin-right: 6px
+}
+
+.colors span:nth-child(1) {
+    background-color: green;
+}
+
+.colors span:nth-child(2) {
+    background-color: purple;
+}
+
+.colors span:nth-child(3) {
+    background-color: rgb(54, 16, 16);
+}
+.card{
+    background-color:#ebe6e6;
+
+}
+.card-img-top{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}

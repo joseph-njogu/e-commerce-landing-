@@ -106,9 +106,9 @@
     display: flex;
     margin-right: 6px
 }
-.card-group{
-    display: flex;
-}
+/* .card-group{
+    margin-left: 10px;
+} */
 
 .colors span:nth-child(1) {
     background-color: green;
@@ -120,6 +120,30 @@
 
 .colors span:nth-child(3) {
     background-color: rgb(54, 16, 16);
+}
+.colors1 {
+    display: flex;
+    margin-top: 2px
+}
+
+.colors1 span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    margin-right: 6px
+}
+/* .card-group{
+    margin-left: 10px;
+} */
+
+.colors1 span:nth-child(1) {
+    background-color: palevioletred;
+}
+
+.colors1 span:nth-child(2) {
+    background-color: white;
 }
 .card{
     background-color:#ebe6e6;
@@ -141,4 +165,26 @@
 }
 .btn-danger{
     color: #630606;
+}
+h5{
+    display: flex;
+    flex-direction: row;
+}
+h5:after{
+    content:"";
+    flex: 1;
+    border-bottom: 1px solid;
+    margin:auto;
+    margin-left: 10px;
+}
+h6{
+    display: flex;
+    flex-direction: row;
+}
+h6:before{
+    content:"";
+    flex: 1;
+    border-bottom: 1px solid;
+    margin:auto;
+    margin-right: 10px;
 }

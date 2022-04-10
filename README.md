@@ -1,6 +1,10 @@
 # e-commerce-landing
 Creating a landing page for the Moringa Remote Assessment.
 
+## Githubpages link
+https://joseph-njogu.github.io/e-commerce-landing-/
+
+
 ### An E-commerce Landing page
 ## Table of Content
 

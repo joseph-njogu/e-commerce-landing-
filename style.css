@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.navbarScroll.navbarDark {
+    background-color: black;
+}
 *{
     padding:0;
     margin:0;
@@ -16,7 +19,7 @@
 }
 
 .nav ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .top{
@@ -73,6 +76,7 @@
     background: url('images/backgrounds/about.jpg');
     background-size:cover;
     position:relative;
+    margin-top: 30px;
 }
 .social-icons {
     font-size: 36px;
@@ -92,6 +96,10 @@
     text-align: left;
     padding-left: 80px;
     padding-top: 30px;
+}
+#footer2 {
+    background-color: #666464;
+    margin-left: 20px;
 }
 .colors {
     display: flex;
@@ -147,15 +155,20 @@
 }
 .card{
     background-color:#ebe6e6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 50vh;
+    width:fit-content;
+    border: none;
 
 }
 .card-img-top{
+    height: fit-content;
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    width: fit-content;
+    position: absolute;
 }
 .log{
     float: right;
@@ -188,3 +201,8 @@ h6:before{
     margin:auto;
     margin-right: 10px;
 }
+@media screen and (max-width: 800px) {
+    . * {
+      width: 100%;
+    }
+  }

@@ -19,7 +19,7 @@
 }
 
 .nav ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .top{
@@ -94,7 +94,10 @@
 #footer1 {
     background-color: #C5D8A4;
     text-align: left;
-    padding-left: 80px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-right: 100px;
     padding-top: 30px;
 }
 #footer2 {
@@ -172,12 +175,14 @@
 }
 .log{
     float: right;
-    padding-left: 980px;
+    padding-left: 860px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .btn-danger{
     color: #630606;
+    margin-right: 100px;
+    width: fit-content;
 }
 h5{
     display: flex;
@@ -200,6 +205,11 @@ h6:before{
     border-bottom: 1px solid;
     margin:auto;
     margin-right: 10px;
+}
+.log{
+    text-align: right;
+    margin-right: 10px;
+
 }
 /*@media screen and (max-width: 800px) {
     . * {
